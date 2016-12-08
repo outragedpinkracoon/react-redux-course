@@ -8,7 +8,7 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="search-bar">
         <input onChange={event => console.log(event.target.value)}
            />
       </div>
